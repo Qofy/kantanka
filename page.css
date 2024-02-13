@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+.hero {
+  width: 100%;
+  padding: 10px 10%;
+  overflow: hidden;
+  background-color: #0b0a2a;
+}
+nav {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 66px;
+  background-color: #f5f1f1;
+  border-radius: 3rem;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a {
+  color: #c430d7;
+  text-decoration: none;
+  text-transform: initial;
+  background-color: rgb(204, 204, 204);
+  padding: 10px 15px;
+  border-radius: 1.5rem;
+  border: none;
+}
+nav ul li a:hover {
+  color: blue;
+  font-weight: 400;
+  text-decoration: underline;
+}
+nav ul li a:active {
+  opacity: 0.5;
+}
+.login-btn {
+  text-decoration: none;
+  color: #333;
+  margin-right: 15px;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 40px;
+  color: #fff;
+  background-image: linear-gradient(45deg, #df4881, #c430d7);
+  font-size: 14px;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+}
+.login-btn:active {
+  text-decoration: underline;
+  opacity: .7;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 40px;
+  color: #fff;
+  background-image: linear-gradient(45deg, #df4881, #c430d7);
+  font-size: 14px;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+}
+.btn:active {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+.content {
+  margin-top: 10%;
+  max-width: 600px;
+}
+.content h1{
+  font-size: 70px;
+  color: #fff;
+}
+.content p {
+  color: rgb(230, 104, 104);
+  font-size: 17px;
+  font-weight: lighter;
+  background-color: #f5f1f1;
+  border-radius: 1rem;
+  padding: 10px 15px;
+  margin-bottom: 2rem;
+}
+.content p:hover{
+  text-decoration: underline;
+}
+.hero {
+  animation-name: safo;
+}
+.img {
+  float: right;
+  width: 20rem;
+  background-color: rgb(238, 223, 223);
+  border-radius: 2rem;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  z-index: -1;
+}
+.tt {
+  position: relative;
+  bottom: 25rem;
+}
